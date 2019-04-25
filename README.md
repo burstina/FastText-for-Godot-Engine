@@ -1,7 +1,7 @@
-# FastText-for-Godot-Engine ALPHA 1.0
+# FastText for Godot Engine ALPHA 1.0
 Fast text class for Godot Engine. It is a workaround for FPS drop on **android devices** when using Label and LineEdit nodes.
 
-THIS SOFTWARE IS "AS IS", NO WARRANTY, USE AT YOUR OWN RISK!
+# THIS SOFTWARE IS "AS IS", NO WARRANTY, USE AT YOUR OWN RISK!
 
 Godot 3.1 text rendering is not performing well on android devices: https://github.com/godotengine/godot/issues/19917
 FPS rapidly decrease from 60 to 45 just using 3 standard *labels*, that's no good.
