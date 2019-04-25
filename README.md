@@ -51,6 +51,10 @@ When **Input Node is blank**, custom Input Box will be created using following p
 
 
 # Install #
+
+Download [Example](https://github.com/burstina/FastText-for-Godot-Engine/blob/master/FastText%20Example.zip) if you want to look at it.
+
+Download [FastText class](https://github.com/burstina/FastText-for-Godot-Engine/blob/master/FastText.zip).
 Unzip file to your project folder, then open Godot editor and add a new node "FastEdit" as you do when you add basic nodes.
 
 NOTE: You can see two new classes: *FastEditInit* and *FastEdit*. Even if both can be used with no differences, I suggest you use *FastEdit* one, it is simple and helps not to mess with custom class code :) .
