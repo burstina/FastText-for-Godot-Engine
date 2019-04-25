@@ -50,6 +50,10 @@ When **Input Node is blank**, custom Input Box will be created using following p
 | **Input Box Custom Rect** | Rect2 | no | position and size for default Input Box |
 
 
+# Install #
+Unzip file to your project folder, then open Godot editor and add a new node "FastEdit" as you do when you add basic nodes.
+
+NOTE: You can see two new classes: *FastEditInit* and *FastEdit*. Even if both can be used with no differences, I suggest you use *FastEdit* one, it is simple and helps not to mess with custom class code :) .
 
 
 
