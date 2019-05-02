@@ -24,6 +24,7 @@ If you don't like standard input box, you can have one of your own nodes by usin
 | **Fast Text**  | bool | no| activate Fast Text capabilities. Set to *false* to use as basic *label* node |
 | **Allow Input** | bool | no | activate to use this node in a *LineEdit* kind of way |
 | **Target Type** | control/sprite| yes | target rendered object. Default is *control*, but you can change as you please, if needed. Not considered when **Allow Input** is true |
+| **Shared Input Box** | bool| no | for performances maniacs! If your project has a lot of FastText nodes that allow input, you could be bothered by the fact that each FastText creates a new input box by its own. Setting this option to *true* you can have any FastText node to create the ONE input box on first activation, and other FastText nodes will use that ONE instead of spawning new input ones. **NOTE:** only nodes with this option *enabled* are going to use the shared input box.|
 
 
 When **Allow Input is true**, following properties are considered:
