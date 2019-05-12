@@ -1,4 +1,4 @@
-# FastText for Godot Engine ALPHA 1.1
+# FastText for Godot Engine ALPHA 1.0
 Fast text class for Godot Engine. It is a workaround for FPS drop on **android devices** when using Label and LineEdit nodes.
 
 ## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
