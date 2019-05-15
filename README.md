@@ -32,7 +32,7 @@ When **Allow Input is true**, following properties are considered:
 
 |  Property  |domain|mandatory|desc|
 |--|--|--|--|
-| **Input Node**  | NodePath | no |  you can specify a *TextEdit* node you already put in Scene Tree you want to use instead of default input box. **NOTE:** remember that input node works in sinergy with FastText main nodes, it means you have to create a script who rightly behaves: for instance, just clone already provided default script mentioned at **Input Box Script** property |
+| **Input Node**  | NodePath | no |  you can specify a *TextEdit* node you already put in Scene Tree you want to use instead of default input box. **NOTE:** remember that input node works in sinergy with FastText main nodes, it means you have to create a script who rightly behaves: for instance, just clone or extend already provided default script mentioned at **Input Box Script** property.|
 | **Input Box Parent** | NodePath | no | you can specify a node in Scene Tree where you want put the default input box as a child. **  |
 |  | | |`NOTE` : </font> **Input Node** and **Input Box Parent** are mutually exclusive. If you leave them empty, Input Box will be created as a sibiling |
 | **Input Box Script** | File Path | yes | mandatory when **Allow Input** is true. You don't have to code your own script, a default script has been already provided. If custom script is really needed, just clone default one and add your own code. |
