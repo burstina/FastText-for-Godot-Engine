@@ -13,8 +13,8 @@ You can use it as *LineEdit (kind of)*  setting **Allow Input** to *true*
 
 Allowing input means that an *Input Box* will appear runtime to allow text to be entered and saved in FastText node.
 Since it was developed with mobile devices in mind, standard Input Box will appear at the top of the screen (coord: 0,0) with full screen length. If you don't want this to happen, you can set custom position and size.
-As default, newly runtime-created Input Box will be put in Scene Tree as sibiling, but sometimes it is just not good: you can set a different location by using  **Input Box Parent**
-If you don't like standard input box, you can have one of your own nodes by using **Input Node**
+As default, newly runtime-created Input Box will be put in Scene Tree as sibiling, but sometimes it is just not good: you can set a different location by using  **Input Box Parent**.
+If you don't like standard input box, you can have one of your own nodes by using **Input Node**.
 
 
 ## Class custom properties
@@ -24,7 +24,7 @@ If you don't like standard input box, you can have one of your own nodes by usin
 | **Fast Text**  | bool | no| activate Fast Text capabilities. Set to *false* to use as basic *label* node |
 | **Allow Input** | bool | no | activate to use this node in a *LineEdit* kind of way |
 | **Target Type** | control/sprite| yes | target rendered object. Default is *control*, but you can change as you please, if needed. Not considered when **Allow Input** is true |
-| **Shared Input Box** | bool| no | for performances maniacs! If your project has a lot of FastText nodes that allow input, you could be bothered by the fact that each FastText creates a new input box by its own. Setting this option to *true* you can have any FastText node to create the ONE input box on first activation, and other FastText nodes will use that ONE instead of spawning new input ones. **NOTE:** only nodes with this option *enabled* are going to use the shared input box.|
+| **Shared Input Box** | bool| no | for performances maniacs! If your project has a lot of FastText nodes that allow input, you could be bothered by the fact that each FastText creates a new input box by its own. Setting this option to *true* you can have any FastText node to create the ONE input box on first activation, and other FastText nodes will use that ONE instead of spawning new elements. **NOTE:** only nodes with this option *enabled* are going to use the shared input box.|
 
 
 When **Allow Input is true**, following properties are considered:
@@ -32,10 +32,11 @@ When **Allow Input is true**, following properties are considered:
 
 |  Property  |domain|mandatory|desc|
 |--|--|--|--|
-| **Input Node**  | NodePath | no |  you can specify a *TextEdit* node you already put in Scene Tree you want to use instead of default input box. |
+| **Input Node**  | NodePath | no |  you can specify a *TextEdit* node you already put in Scene Tree you want to use instead of default input box.
+**NOTE:** remember that input node works in sinergy with FastText main nodes, it means you have to create a script who rightly behaves: for instance, just clone already provided default script mentioned at **Input Box Script** property |
 | **Input Box Parent** | NodePath | no | you can specify a node in Scene Tree where you want put the default input box as a child. **  |
 |  | | |`NOTE` : </font> **Input Node** and **Input Box Parent** are mutually exclusive. If you leave them empty, Input Box will be created as a sibiling |
-| **Input Box Script** | File Path | yes | mandatory when **Allow Input** is true |
+| **Input Box Script** | File Path | yes | mandatory when **Allow Input** is true. You don't have to code your own script, a default script has been already provided. If custom script is really needed, just clone default one and add your own code. |
 
 
 When **Input Node is blank**, custom Input Box will be created using following properties:
