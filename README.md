@@ -60,7 +60,7 @@ Download [Example](https://github.com/burstina/FastText-for-Godot-Engine/blob/ma
 Download [FastText class](https://github.com/burstina/FastText-for-Godot-Engine/archive/master.zip).
 Unzip file to your project folder, then open Godot editor and add a new node "FastEdit" as you do when you add basic nodes.
 
-NOTE: You can see two new classes: *FastEditInit* and *FastEdit*. Even if both can be used with no differences, I suggest you use *FastEdit* one, it is simple and helps not to mess with custom class code :) .
+NOTE: You can see two new classes: *FastTextInit* and *FastText". Even if both can be used with no differences, I suggest you use *FastText* one, it is simple and helps not to mess with custom class code :) .
 
 
 
