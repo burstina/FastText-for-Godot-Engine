@@ -8,3 +8,5 @@ margin_top = 143.0
 margin_right = 184.0
 margin_bottom = 173.0
 script = ExtResource( 1 )
+InputBoxStyleInherited = false
+InputBoxFontInherited = false
