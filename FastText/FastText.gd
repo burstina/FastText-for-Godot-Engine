@@ -1,3 +1,4 @@
-
-class_name FastText
-extends FastTextInit	
+extends FastTextInit
+class_name FastText,"res://FastText/FT.png"
+func _init():
+    _FastTextInit()
