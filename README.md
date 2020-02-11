@@ -1,6 +1,6 @@
 # if you find something working bad for this asset, just submit an issue
 
-# FastText for Godot Engine ALPHA 1.0
+# FastText 2.0 for Godot Engine
 Fast text class for Godot Engine. It is a workaround for FPS drop on **android devices** when using Label and LineEdit nodes.
 
 ## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
@@ -19,7 +19,7 @@ As default, newly runtime-created Input Box will be put in Scene Tree as sibilin
 If you don't like standard input box, you can have one of your own nodes by using **Input Node**.
 
 
-## Class custom properties
+## Class custom properties (1.0)
 
 |  Property  |domain|mandatory|desc|
 |--|--|--|--|
@@ -52,6 +52,9 @@ When **Input Node is blank**, custom Input Box will be created using following p
 | **Input Box Full Width**  | bool| no | when set to *true*, override width for Input Box will to screen full width |
 | **Input Box Custom Rect** | Rect2 | no | position and size for default Input Box |
 
+## Class custom properties (2.0)
+
+Coming soon
 
 # Install #
 
