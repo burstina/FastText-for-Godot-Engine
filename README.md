@@ -6,7 +6,7 @@ Fast text class for Godot Engine. It is a workaround for FPS drop on **android d
 ## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
 ## NO WARRANTY, USE AT YOUR OWN RISK! ##
 
-Godot 3.1 text rendering is not performing well on android devices: https://github.com/godotengine/godot/issues/19917
+Godot (3.1 and above) text rendering is not performing well on android devices: https://github.com/godotengine/godot/issues/19917
 FPS rapidly decrease from 60 to 45 just using 3 standard *labels*, that's no good.
 I made this custom class to keep performances in line.
 
