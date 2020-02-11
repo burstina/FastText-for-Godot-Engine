@@ -6,14 +6,14 @@ Fast text class for Godot Engine. It is a workaround for FPS drop on **android d
 ## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
 ## NO WARRANTY, USE AT YOUR OWN RISK! ##
 
-Godot (3.1 and above) text rendering is not performing well on android devices: https://github.com/godotengine/godot/issues/19917
+Godot (3.1 and 3.2) text rendering is not performing well on android devices: https://github.com/godotengine/godot/issues/19917
 FPS rapidly decrease from 60 to 45 just using 3 standard *labels*, that's no good.
 I made this custom class to keep performances in line.
 
 You can use it as *Label*  setting **Allow Input** to *false*
 You can use it as *LineEdit (kind of)*  setting **Allow Input** to *true*
 
-Allowing input means that an *Input Box* will appear runtime to allow text to be entered and saved in FastText node.
+Allowing input means that an *Input Box* will appear runtime to allow text to be manually typed and saved in FastText node.
 Since it was developed with mobile devices in mind, standard Input Box will appear at the top of the screen (coord: 0,0) with full screen length. If you don't want this to happen, you can set custom position and size.
 As default, newly runtime-created Input Box will be put in Scene Tree as sibiling, but sometimes it is just not good: you can set a different location by using  **Input Box Parent**.
 If you don't like standard input box, you can have one of your own nodes by using **Input Node**.
